@@ -4,4 +4,4 @@ function Habilidades () {
     )
 }
 
-export default Habilidades
+export default Habilidades;
