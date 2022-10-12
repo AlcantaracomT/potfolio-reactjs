@@ -1,0 +1,14 @@
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.min-height {
+    min-height: 75%;
+}
+
+.containerMenu {
+    margin: 0 3% 0;
+    margin: 0 auto;
+}
