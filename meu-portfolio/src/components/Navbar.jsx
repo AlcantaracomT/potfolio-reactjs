@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import './navbar.css'
-import { links } from '../Data'
+import { links } from '../data'
 
 const Navbar = () => {
     return (
@@ -8,10 +8,11 @@ const Navbar = () => {
             <div className='container navContainer'>
                 <ul className='navLinks'>
                     {
-                        links.map(({name, path},  index) => {
+                        links.map(({name, path}, index) => {
                             return (
                                 <li>
-                                    <NavLink to={path}>{name}</NavLink>
+                                    <NavLink to={path} className={({isActive}) => isActive ? 'activeNav' :
+                                ''}>{name}</NavLink>
                                 </li>
                             )
                         })
