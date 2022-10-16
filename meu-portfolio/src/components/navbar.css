@@ -1,9 +1,9 @@
 nav {
+    display: grid;
+    place-items: center;
     height: 5rem;
     width: 100vw;
     background: var(--color-white);
-    display: grid;
-    place-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -20,8 +20,9 @@ nav {
 
 .navLinks {
     display: flex;
-    gap: 16.5rem;
+    gap: 35.5rem;
     align-items: center;
+    justify-content: space-around;
 }
 
 .navLinks a {
@@ -41,9 +42,47 @@ nav {
     display: block;
     width: 1.2rem;
     height: 1.2rem;
-    background: red;
+    background: var(--color-white);
     position: absolute;
     left: calc(50% - 0.6rem);
     transform: rotate(45deg);
     margin-top: 0.9rem;
+}
+
+
+.nav_toggle_btn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5rem;
+    width: 151px;
+    margin-left: 50%;
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    filter: invert(1);
+    border: none;
+    z-index: 100;
+    font-size: 3.8rem;
+    cursor: pointer;
+}
+
+/* click do botão */
+
+.show_nav {
+    display: flex;
+}
+
+.hide_nav {
+    display: none;
+}
+
+/* Media Queries (tela media e pequena*/
+
+@media screen and (max-width: 1300px){
+   .navLinks {
+    gap: 12.5rem;
+   }
+   .nav_toggle_btn {
+    margin-left: 42%;
+   }
+
 }

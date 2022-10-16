@@ -6,7 +6,7 @@ import Habilidades from './pages/Habilidades/Habilidades'
 import Contato from './pages/Contato/Contato'
 import Navbar from './components/Navbar'
 
-function App() {
+const App = () => {
 
   return (
     <BrowserRouter>
