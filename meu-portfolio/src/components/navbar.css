@@ -1,5 +1,4 @@
 nav {
-    display: grid;
     place-items: center;
     height: 5rem;
     width: 100vw;
@@ -77,7 +76,7 @@ nav {
 
 /* Media Queries (tela media e pequena*/
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1500px){
    .navLinks {
     gap: 12.5rem;
    }
@@ -85,4 +84,27 @@ nav {
     margin-left: 42%;
    }
 
+}
+
+@media screen and (max-width: 900px){
+    .navLinks {
+     gap: 8.5rem;
+    }
+    .nav_toggle_btn {
+     margin-left: 37%;
+    }
+ 
+}
+
+@media screen and (max-width: 500px){
+    .navLinks {
+     gap: 4rem;
+     font-size: 12px;
+    }
+    .nav_toggle_btn {
+    margin-left: 35%;
+    width: 79px;
+    font-size: 37px;
+    }
+ 
 }

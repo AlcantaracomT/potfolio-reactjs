@@ -5,16 +5,20 @@ import Sobre from './pages/Sobre/Sobre'
 import Habilidades from './pages/Habilidades/Habilidades'
 import Contato from './pages/Contato/Contato'
 import Navbar from './components/Navbar'
+import BtnTheme from './Ul/Buttons/Theme'
 
 const App = () => {
 
   return (
     <BrowserRouter>
-      <Navbar />
-      <Home />
-      <Sobre />
-      <Habilidades />
-      <Contato />
+      <Navbar/>
+      <BtnTheme/>
+      <Routes>
+        <Route path='home' element={<Home/>}/>
+        <Route path='sobre' element={<Sobre/>}/>
+        <Route path='habilidades' element={<Habilidades/>}/>
+        <Route path='contato' element={<Contato/>}/>
+      </Routes>
     </BrowserRouter>
   )
 }
