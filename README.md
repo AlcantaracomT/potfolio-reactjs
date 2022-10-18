@@ -15,7 +15,3 @@ React.
 ## Faculdade
 
 Estou cursando Ciência da computação no terceiro período.
-
-
-<a href="https://github.com/alcantaracomt">
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alcantaracomt&layout=compact&langs_count=7&theme=dracula"/>
