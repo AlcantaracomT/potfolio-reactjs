@@ -1,0 +1,21 @@
+
+.about_section-content h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.about_section-content p {
+    margin-bottom: 1rem;
+}
+
+.about_story-container {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+}
+
+.about_storyOne-container {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 10%;
+}
