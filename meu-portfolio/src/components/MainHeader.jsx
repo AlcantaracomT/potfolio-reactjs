@@ -9,11 +9,11 @@ const MainHeader = () => {
                     <h4>Olá, sou o</h4>
                     <h1>Tiago Alcantara</h1>
                     <p>desenvolvedor iniciante</p>
-                    <Link to="/contato" className='btn'>Vamos Trabalhar Juntos!</Link>
+                    <Link to="/contato" className='btn btn_mainHeader'>Vamos Trabalhar Juntos!</Link>
                 </div>
                 <div className="container main_header_right">
                     <div className="main_header_image">
-                        <img src={Image} alt="foto de Tiago"/>
+                        <img className='img_Home' src={Image} alt="foto de Tiago"/>
                     </div>
                 </div>
             </div>           

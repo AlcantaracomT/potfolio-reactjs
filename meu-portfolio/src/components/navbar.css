@@ -19,7 +19,7 @@ nav {
 
 .navLinks {
     display: flex;
-    gap: 35.5rem;
+    gap: 19.5rem;
     align-items: center;
     justify-content: space-around;
 }
@@ -55,7 +55,7 @@ nav {
     left: 0;
     height: 5rem;
     width: 151px;
-    margin-left: 50%;
+    margin-left: 46%;
     clip-path: polygon(100% 0, 0 0, 50% 100%);
     filter: invert(1);
     border: none;
@@ -74,37 +74,32 @@ nav {
     display: none;
 }
 
-/* Media Queries (tela media e pequena*/
+/* Media Queries (medium screens) */
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1024px){
    .navLinks {
     gap: 12.5rem;
    }
+
    .nav_toggle_btn {
-    margin-left: 42%;
+    margin-left: 37%;
    }
 
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 600px){
     .navLinks {
-     gap: 8.5rem;
+     gap: 3rem;
+     font-size: 14px;
     }
     .nav_toggle_btn {
-     margin-left: 37%;
+     margin-left: 38%;
+     font-size: 40px;
+     clip-path: circle(50% at 50% 50%);
+     top: 7%;
+     width: 42px;
+     height: 41px;
     }
  
 }
 
-@media screen and (max-width: 500px){
-    .navLinks {
-     gap: 4rem;
-     font-size: 12px;
-    }
-    .nav_toggle_btn {
-    margin-left: 35%;
-    width: 79px;
-    font-size: 37px;
-    }
- 
-}

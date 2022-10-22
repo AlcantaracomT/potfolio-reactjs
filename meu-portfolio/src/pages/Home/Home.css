@@ -33,3 +33,41 @@
     display: grid;
     place-items: center;
 }
+
+.img_Home {
+    clip-path: polygon(0 0, 100% 0, 79% 100%, 22% 100%);
+}
+
+
+/* Media Queries (medium screens) */
+@media screen and (max-width: 1024px) {
+
+  .main_header {
+    height: fit-content;
+    padding: 5rem 0;
+  }
+
+  .main_header_container {
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn_mainHeader {
+    margin: 0 -47px 0;
+  }
+}
+
+/* Media Queries (medium screens) */
+@media screen and (max-width: 600px) {
+    .main_header {
+        padding: 3.8rem 0;
+    }
+    .main_header_container {
+        margin: 39px 0 20px;
+    }
+    .btn_mainHeader {
+        margin: 0 36px 0;
+        padding: 0.5rem 1rem;
+    }
+}
