@@ -1,6 +1,6 @@
 
 .about_section-content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -10,8 +10,7 @@
 
 .about_story-container {
     display: grid;
-    grid-template-columns: 40% 50%;
-    gap: 10%;
+    grid-template-columns: 40%;
 }
 
 .about_storyOne-container {
