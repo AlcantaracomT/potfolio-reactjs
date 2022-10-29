@@ -1,50 +1,64 @@
 import Header from '../../components/Header'
-import HeaderImage from '../../images/minha_img-programan.jpg'
 import './Sobre.css'
+
+import HeaderImage from '../../images/minha_img-programan.jpg'
+import MyImage from '../../images/eu1.png'
+
+import { AiOutlineHtml5 } from 'react-icons/ai'
+import { DiCss3 } from 'react-icons/di'
+import { TbBrandJavascript } from 'react-icons/tb'
+import { FaReact } from 'react-icons/fa'
 
 const Sobre = () => {
     return (
-        <>
+     <>
         <Header title="Sobre Tiago Alcantara" image={HeaderImage}>
-        Um breve resumo de quem sou eu. 
+        Um breve resumo. 
         </Header>
 
         <section className="about_story">
-            <div className="container about_story-container">
+            <div className="container about_container">
               <div className="about_section-image">
-                <img src="" alt="" />
+                  <img src={MyImage} alt="foto perfil" />
               </div>
               <div className="about_section-content">
+                 <h1>A Programação</h1>
                  <p>
-                 Tenho 23 anos, moro no interior da Bahia, na cidade em que descobriram o Brasil, 
-                 Santa Cruz Cabralia.... 
+                    Me chamo Tiago Alcantara, tenho 23 anos, moro no interior da Bahia e estou cusando 
+                    Ciência da Computação no 3° periodo.
+                 </p>
+                 <p>
+                    Tudo começou porque fiquei curioso em saber como funcionava um site, resolvi me aprofudar no assunto e acabei me apaixonando.<div/>
+                    Foi então que em 2022 decidi mudar de profissão, 
+                    comecei a cursar o ensino superior em ciência da computação e a fazer 
+                    cursos de programação voltado à JavaScript.<br/>
+                 </p>
+                 <p>
+                    Hoje em dia é meio que impossivel passar um dia sem ecrever códigos,
+                    estudar sobre o assunto ou até mesmo não pensar em códigos.
+                 </p>
+                 <p>
+                    Estou em busca do meu primeiro emprego como desenvolvedor Web.
                  </p>
               </div>
             </div>
         </section>
 
-        <section className="about_storyOne">
-            <div className="container about_storyOne-container">
-               <div className="about_section-image">
-                <img src="" alt="" />
-               </div>
+        <section className="about_story">
+            <div className="container about_containerOne">
                <div className="about_section-content">
-                   <h1>A Programação</h1>
-                   <p>
-                    Tudo começou porque fiquei curioso pra saber como funciona um site, e fui pesquisar,
-                    descobri simbolos com letras misturados e não consegui entender nada, resolvi me aprofudar naquilo e acabei me apaixonando.
-                    Foi então que em 2022 eu decidi mudar de profissão, 
-                    comecei a cursar o ensino superior em ciência da computação e a fazer 
-                    cursos de programação voltado à JavaScript.
-                    Hoje em dia é meio que impossivel passar um dia sem ecrever códigos,
-                    estudar sobre o assunto ou até mesmo não pensar em códigos. 
-                    Atualmente trabalho em uma empresa que faz à distribuição de produtos químicos e 
-                    estou em busca do meu primeiro emprego em desenvolvimento Web
-                    </p>
-                </div>
-         </div>
+                  <h1>Habilidades</h1>
+               </div>
+               <div className="about_habili">
+                  <AiOutlineHtml5 />
+                  <p>
+                   HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web.<br />
+                   Define o significado e a estrutura do conteúdo da web.
+                  </p>
+               </div>   
+            </div>
         </section>
-        </>
+     </>
     )
 }
 
