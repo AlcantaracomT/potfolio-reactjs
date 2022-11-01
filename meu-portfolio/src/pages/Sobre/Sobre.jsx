@@ -45,16 +45,27 @@ const Sobre = () => {
         </section>
 
         <section className="about_story">
-            <div className="container about_containerOne">
+            <div className="container">
                <div className="about_section-content">
                   <h1>Habilidades</h1>
                </div>
-               <div className="about_habili">
-                  <AiOutlineHtml5 />
-                  <p>
-                   HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web.<br />
-                   Define o significado e a estrutura do conteúdo da web.
-                  </p>
+               <div className="about_container">
+                  <div className="about_habili">  
+                    <span style={{ color:'#f06529' }}><AiOutlineHtml5 /></span>
+                    <p>
+                      HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web.<br />
+                      Define o significado e a estrutura do conteúdo da web.
+                    </p>
+                  </div>
+
+                  <div className="about_habili">  
+                  <span style={{ color:'#2965f1' }}><DiCss3 /></span>
+                    <p>
+                    CSS (Cascading Style Sheets) é um mecanismo para adicionar estilo a um documento web.<br />
+                    O código CSS pode ser aplicado diretamente nas tags ou ficar contido dentro das tags.<br />
+                    Também é possível, em vez de colocar a formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.
+                    </p>
+                  </div> 
                </div>   
             </div>
         </section>
