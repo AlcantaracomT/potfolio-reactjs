@@ -8,7 +8,7 @@ const MainHeader = () => {
                 <div className="container main_header_left">
                     <h4>Olá, sou o</h4>
                     <h1>Tiago Alcantara</h1>
-                    <p>desenvolvedor iniciante</p>
+                    <p>Criando códigos para o seu sonho entrar nas telas</p>
                     <Link to="/contato" className='btn btn_mainHeader'>Vamos Trabalhar Juntos!</Link>
                 </div>
                 <div className="container main_header_right">

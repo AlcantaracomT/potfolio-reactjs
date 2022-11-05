@@ -49,6 +49,7 @@ const Sobre = () => {
                <div className="about_section-content">
                   <h1>Habilidades</h1>
                </div>
+
                <div className="about_container">
                   <div className="about_habili">  
                     <span style={{ color:'#f06529' }}><AiOutlineHtml5 /></span>
@@ -66,6 +67,22 @@ const Sobre = () => {
                     Também é possível, em vez de colocar a formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.
                     </p>
                   </div> 
+
+                  <div className="about_habili">
+                     <span style={{ color:'#f0db4f' }}><TbBrandJavascript /></span>
+                     <p>
+                     JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.
+                     Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
+                     </p>
+                  </div>
+
+                  <div className="about_habili">
+                     <span style={{ color:'#61dbfb' }}><FaReact /></span>
+                     <p>
+                     O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
+                     </p>
+                  </div>
+
                </div>   
             </div>
         </section>

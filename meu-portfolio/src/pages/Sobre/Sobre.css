@@ -18,7 +18,6 @@
     display: grid;
     grid-template-columns: 40% 50%;
     gap: 10%;
-    align-items: center;
 }
 
 
@@ -37,4 +36,31 @@
 
 .about_habili span {
     font-size: 3rem;
+}
+
+
+/* Media queries (medium) */
+
+@media screen and (max-width: 1024px) {
+    .about_section-image {
+        width: 60%;
+        align-items: center;
+    }
+
+    .about_container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
+
+/* Media queries (small screens) */
+@media screen and (max-width: 600px) {
+    .about_section-image {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .about_container {
+        gap: 2rem;
+    }
 }

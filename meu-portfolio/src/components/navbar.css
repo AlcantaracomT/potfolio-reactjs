@@ -87,19 +87,22 @@ nav {
 
 }
 
-@media screen and (max-width: 600px){
+/* Media Queries (small screens) */
+@media screen and (max-width: 600px) {
     .navLinks {
      gap: 3rem;
      font-size: 14px;
     }
     .nav_toggle_btn {
-     margin-left: 38%;
+     margin-left: 42%;
      font-size: 40px;
-     clip-path: circle(50% at 50% 50%);
-     top: 7%;
-     width: 42px;
-     height: 41px;
+     width: 56px;
     }
- 
+}
+
+@media screen and (max-width: 400px) {
+    .nav_toggle_btn {
+     margin-left: 37%;
+    }
 }
 
